@@ -1,10 +1,16 @@
 ;; init.el -- Emacs configuration -- Yong Wang
+;; 2016 - 2017
+;; This is a very simple emacs config.
+;;     - LaTex - auctex
+;;     - Notes - org
+;;     - Python - (sometimes)
+
 
 ;; package repositories
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("melpa" . "http://melpa.org/packages/")))
 (package-initialize)
-;; packages are installed through M-x list-packages
+;; packages are installed through M-x list-packages or M-x package-install
 ;; - exec-path-from-shell
 ;; - langtool
 ;; - material-theme
