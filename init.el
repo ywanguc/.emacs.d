@@ -41,6 +41,10 @@
 (global-linum-mode t) ;; turn on line numbers
 (set-face-attribute 'default nil :height 150)
 
+;; ace-jump-mode (easymotion)
+(require 'ace-jump-mode)
+(define-key global-map (kbd "C-.") 'ace-jump-mode)
+
 ;; org-mode settings
 ;; The following lines are always needed.  Choose your own keys.
 (global-set-key "\C-cl" 'org-store-link)
@@ -92,3 +96,17 @@
 ;;$clean_ext = 'bbl rel %R-blx.bib %R.synctex.gz';
 
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
