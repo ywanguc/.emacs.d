@@ -17,7 +17,7 @@
 ;; - org
 ;; - auctex
 ;; - auctex-latexmk
-
+;; - org-beautify-theme
 
 
 ;; required to sync path with shell (needed for python)
@@ -45,20 +45,20 @@
 (require 'ace-jump-mode)
 (define-key global-map (kbd "C-.") 'ace-jump-mode)
 
+;; iy-go-to-char
+(require 'iy-go-to-char)
+;;(add-to-list 'mc/cursor-specific-vars 'iy-go-to-char-start-pos)
+(global-set-key (kbd "C-c f") 'iy-go-to-char)
+(global-set-key (kbd "C-c F") 'iy-go-to-char-backward)
+(global-set-key (kbd "C-c ;") 'iy-go-to-or-up-to-continue)
+(global-set-key (kbd "C-c ,") 'iy-go-to-or-up-to-continue-backward)
+
 ;; org-mode settings
 ;; The following lines are always needed.  Choose your own keys.
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-iswitchb)
-;; python
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((python . t)))
-
-
-
-
 
 
 
@@ -103,7 +103,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
+    (iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
