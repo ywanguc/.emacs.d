@@ -17,7 +17,6 @@
 ;; - org
 ;; - auctex
 ;; - auctex-latexmk
-;; - org-beautify-theme
 
 
 ;; required to sync path with shell (needed for python)
