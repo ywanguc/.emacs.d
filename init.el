@@ -11,12 +11,6 @@
                          ("melpa" . "http://melpa.org/packages/")))
 (package-initialize)
 ;; packages are installed through M-x list-packages or M-x package-install
-;; - exec-path-from-shell
-;; - langtool
-;; - material-theme
-;; - org
-;; - auctex
-;; - auctex-latexmk
 
 
 ;; required to sync path with shell (needed for python)
@@ -38,12 +32,12 @@
 (setq inhibit-startup-message t) ;; hide startup message
 ;;(load-theme 'material-light t) ;; load theme: material-light
 (load-theme 'zenburn t)
-(global-linum-mode t) ;; turn on line numbers
+;;(global-linum-mode t) ;; turn on line numbers. 
 (set-face-attribute 'default nil :height 150)
 
 ;; ace-jump-mode (easymotion)
 (require 'ace-jump-mode)
-(define-key global-map (kbd "C-.") 'ace-jump-mode)
+(define-key global-map (kbd "C-x j") 'ace-jump-mode)
 
 ;; iy-go-to-char
 (require 'iy-go-to-char)
@@ -103,10 +97,10 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("486759384769d44b22bb46072726c2cfb3ccc3d49342e5af1854784d505ffc01" default)))
+    ("5dc0ae2d193460de979a463b907b4b2c6d2c9c4657b2e9e66b8898d2592e3de5" "486759384769d44b22bb46072726c2cfb3ccc3d49342e5af1854784d505ffc01" default)))
  '(package-selected-packages
    (quote
-    (zenburn-theme iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
+    (writeroom-mode zenburn-theme iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
