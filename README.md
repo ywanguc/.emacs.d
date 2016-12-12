@@ -10,3 +10,4 @@ This is my very simple emacs config used. The following packages are installed v
 - auctex-latexmk
 - ace-jump-mode
 - iy-go-to-char
+- zenburn-theme

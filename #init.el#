@@ -36,8 +36,7 @@
 
 ;; basic settings
 (setq inhibit-startup-message t) ;; hide startup message
-;;(load-theme 'material-light t) ;; load theme: material-light
-(load-theme 'zenburn t)
+(load-theme 'm t) ;; load theme: material-light
 (global-linum-mode t) ;; turn on line numbers
 (set-face-attribute 'default nil :height 150)
 
