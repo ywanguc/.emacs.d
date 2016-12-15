@@ -63,8 +63,16 @@
 
 
 ;; yasnippet
+(require 'yasnippet)
 (add-to-list 'yas-snippet-dirs "~/.emacs.d/yasnippet-snippets")
-
+(yas-reload-all)
+(add-hook 'python-mode-hook #'yas-minor-mode)
+(add-hook 'c-mode-hook #'yas-minor-mode)
+(add-hook 'c++-mode-hook #'yas-minor-mode)
+(add-hook 'java-mode-hook #'yas-minor-mode)
+(add-hook 'html-mode-hook #'yas-minor-mode)
+(add-hook 'latex-mode-hook #'yas-minor-mode)
+(add-hook 'org-mode-hook #'yas-minor-mode)
 
 ;; setup for auctex
 (require 'reftex)
