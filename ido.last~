@@ -2,24 +2,31 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/" . "yongwang/")
  ("/Users/yongwang/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/Users/yongwang/.emacs.d/"
+ "/Users/yongwang/Desktop/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "c.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/yongwang/.emacs.d/" (22610 10204 0 0) "yasnippet-snippets/" "snippets/" "README.md" "LICENSE" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" ".git/" "../" "./")
+ ("/Users/yongwang/.emacs.d/" (22610 13231 0 0) "yasnippet-snippets/" "snippets/" "README.md" "LICENSE" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" ".python-environments/" ".git/" "../" "./")
 
- ("/Users/yongwang/Desktop/" (22610 10212 0 0) "泡沫6.gif" "泡沫5.gif" "泡沫4.gif" "泡沫3.gif" "泡沫2.gif" "泡沫1.gif" "Scan_161103_BoldDentalReceipts.pdf" "project_summary.docx" "photo-201609-uk-cambridge/" "Mimi/" "faded_1hour.mp4" "faded.mp4" "emacs.d/" "elements.docx" "auto/" ".ropeproject/" ".localized" ".ipynb_checkpoints/" ".DS_Store" "../" "./")
+ ("/Users/yongwang/.emacs.d/.python-environments/" (22610 12870 0 0) "default/" "../" "./")
+
+ ("/Users/" (22250 62648 0 0) "yongwang/" "yong/" "Shared/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/yongwang/Desktop/" (22610 11584 0 0) "泡沫6.gif" "泡沫5.gif" "泡沫4.gif" "泡沫3.gif" "泡沫2.gif" "泡沫1.gif" "t.tex~" "t.tex" "t.synctex.gz" "t.py~" "t.py" "t.pdf" "t.log" "t.fls" "t.fdb_latexmk" "t.aux" "Scan_161103_BoldDentalReceipts.pdf" "project_summary.docx" "photo-201609-uk-cambridge/" "Mimi/" "faded_1hour.mp4" "faded.mp4" "emacs.d/" "elements.docx" "c.cpp~" "c.cpp" "auto/" ".ropeproject/" ".localized" ".ipynb_checkpoints/" ".DS_Store" "../" "./")
 
  ("/Users/yongwang/" (22605 36226 0 0) "websites/" "rsync_wdmycloud.sh" "PycharmProjects/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Applications/" "anaconda/" ".Xauthority" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".thumbnails/" ".subversion/" ".ssh/" ".sqlite_history" ".spyder2-py3/" ".spyder2/" ".spyder/" ".spacemacs" ".sogouinput/" ".serverauth.72651" ".serverauth.51821" ".serverauth.28475" ".rstudio-desktop/" ".ropeproject/" ".rnd" ".Rhistory" ".R/" ".QtWebEngineProcess/" ".pyzo/" ".pyxbld/" ".pylint.d/" ".putty/" ".plotly/" ".oracle_jre_usage/" ".octave_hist" ".matplotlib/" ".matlab/" ".local/" ".live-packs/" ".lesshst" ".latexmkrc" ".jupyter/" ".ipython/" ".inkscape/" ".gtk-bookmarks" ".gnuplot_history" ".gnome2/" ".glue/" ".fop/" ".erc/" ".emacs.d/" ".DS_Store" ".dropbox/" ".cups/" ".continuum/" ".config/" ".condamanager/" ".CFUserTextEncoding" ".cache/" ".bash_sessions/" ".bash_profile" ".bash_history" ".astropy/" ".anaconda/" ".a.py.swp" "../" "./")
 )

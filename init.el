@@ -40,6 +40,9 @@
 (ido-mode t)
 
 
+;; company-mode
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
 
 ;; ace-jump-mode (easymotion)
 (require 'ace-jump-mode)
@@ -117,7 +120,7 @@
     ("5dc0ae2d193460de979a463b907b4b2c6d2c9c4657b2e9e66b8898d2592e3de5" "486759384769d44b22bb46072726c2cfb3ccc3d49342e5af1854784d505ffc01" default)))
  '(package-selected-packages
    (quote
-    (writeroom-mode zenburn-theme iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
+    (company-jedi writeroom-mode zenburn-theme iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
