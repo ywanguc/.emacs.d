@@ -35,6 +35,12 @@
 ;;(global-linum-mode t) ;; turn on line numbers. 
 (set-face-attribute 'default nil :height 150)
 
+;; ido
+(require 'ido)
+(ido-mode t)
+
+
+
 ;; ace-jump-mode (easymotion)
 (require 'ace-jump-mode)
 (define-key global-map (kbd "C-x j") 'ace-jump-mode)
@@ -55,6 +61,9 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 
 
+
+;; yasnippet
+(add-to-list 'yas-snippet-dirs "~/.emacs.d/yasnippet-snippets")
 
 
 ;; setup for auctex
