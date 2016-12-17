@@ -34,10 +34,15 @@
 (load-theme 'zenburn t)
 ;;(global-linum-mode t) ;; turn on line numbers. 
 (set-face-attribute 'default nil :height 150)
+(global-visual-line-mode t)
 
 ;; ido
 (require 'ido)
 (ido-mode t)
+
+
+;; jdee
+(require 'jdee)
 
 
 ;; company-mode
@@ -118,9 +123,10 @@
  '(custom-safe-themes
    (quote
     ("5dc0ae2d193460de979a463b907b4b2c6d2c9c4657b2e9e66b8898d2592e3de5" "486759384769d44b22bb46072726c2cfb3ccc3d49342e5af1854784d505ffc01" default)))
+ '(jdee-compiler (quote ("javac")))
  '(package-selected-packages
    (quote
-    (company-jedi writeroom-mode zenburn-theme iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
+    (flycheck jdee company-jedi writeroom-mode zenburn-theme iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
