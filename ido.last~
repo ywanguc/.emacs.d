@@ -8,12 +8,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/yongwang/Dropbox/WangLab/Data/viscoelastic_network/"
  "/Users/yongwang/.emacs.d/"
  "/Users/yongwang/Desktop/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "speed_test.py"
+ "verification_of_code_using_known_cases.py"
  "init.el"
  "test.java"
  "c.cpp"
@@ -21,11 +24,15 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/yongwang/.emacs.d/" (22612 43947 0 0) "yasnippet-snippets/" "snippets/" "site-lisp/" "semanticdb/" "README.md" "LICENSE" "jdee-server/" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "abbrev_defs" ".git/" "../" "./")
+ ("/Users/yongwang/Dropbox/WangLab/Data/ag_effect/growth_curve_PVP_effect/" (22690 528 0 0) "PVP_Effect.pptx" "plot_growth_curves_PVP_effect.m" "Growth curve_PVP_8000_02_08_17_Sample 2.txt" "Growth curve_PVP_8000_02_08_17_Sample 1.txt" "Growth curve_PVP_40000_02_03_17_Sample 2.txt" "Growth curve_PVP_40000_02_03_17_Sample 1.txt" ".DS_Store" "../" "./")
+
+ ("/Users/yongwang/Desktop/" (22612 48135 0 0) "泡沫6.gif" "泡沫5.gif" "泡沫4.gif" "泡沫3.gif" "泡沫2.gif" "泡沫1.gif" "project_summary.docx" "photo-201609-uk-cambridge/" "Mimi/" "faded_1hour.mp4" "faded.mp4" "elements.docx" ".ropeproject/" ".localized" ".ipynb_checkpoints/" ".DS_Store" "../" "./")
+
+ ("/Users/yongwang/.emacs.d/" (22616 39606 0 0) "yasnippet-snippets/" "snippets/" "site-lisp/" "semanticdb/" "README.md" "LICENSE" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "abbrev_defs" ".git/" "../" "./")
+
+ ("/Users/yongwang/Dropbox/WangLab/Data/viscoelastic_network/" (22617 54455 0 0) "verification_of_code_using_known_cases.py" "test.py" "spring_system.pyc" "spring_system.py" "setup.py" "README.md" "progress.pptx" "previous_work/" "ExactSolutions.nb" "c_spring_system.pyx" "archive/" ".gitignore~" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/yongwang/Downloads/" (22612 43820 0 0) "录像_25.avi" "凯迪克金奖绘本60本/" "Yildiz et al MyoV Science 2003.pdf" "weekly report sep 11.pptx" "Weekly Report 91116.pptx" "Wang Letter.pdf" "Unofficial Transcripts.pdf" "Thyparambil_CV-with publications-new.pdf" "Thoughts on the new exam.docx" "Texas AM Excuse Letter (004).pdf" "Summary of research data_19Jul2016.pdf" "statement of Arkansas.docx" "Sponsoring an Applicant.docx" "Sawtooth Growth Curve.edit.svg" "Resume.docx" "research_exam_poll.xlsx" "research exam poll-2.xlsx" "Research Based Candidacy Exam 09-28-2016.pdf" "recomendation_letter_to_the_University_of_Arkansa.rtf" "PRTMPL58196.docx" "Protocol - Measure Bacterial Growth Curve.docx" "Proposed Program of Study.pdf" "Program1674Description.PDF" "Poster assessorsR.docx" "PhysRevB.14.3438.pdf" "Physics workshop tours 2016.docx" "PEGylation-Protocol.doc" "PEG-protocol.doc" "Parametric analysis for experiment with different bacterial concentration.pptx" "Parameter values of growth curve fitting.xlsx" "Parameter values and ratio for different concentrations of bacteria.xlsx" "Parameter values and ratio for different concentrations of bacteria (1).xlsx" "Pacific TII 2013.pdf" "OrderHistory.pdf" "Mohammad Aminul Haque_Weekly report_9_11_16.pptx" "modeling_bacteria_growth.pdf" "modeling_bacteria_growth.html" "London Pass Order Confirmation.pdf" "KIC Document 0001.pdf" "James Sears CV.pdf" "James Sears Cover Letter.pdf" "J. Bacteriol.-2003-Gerdes-5673-84.pdf" "Integrity Week Schedule.jpg" "https___www.priceline.pdf" "Hongje Jang CV - 18Sep2016.pdf" "Growth plots for different concentrations of AgNO3_combined_markers edited.fig" "Growth plots for different concentrations of AgNO3_combined.fig" "Growth plots for different concentrations of AgNO3_9_10_16.fig" "Growth plots for different concentrations of Ag NPs- 9_25_16.fig" "Growth plots for different concentrations of Ag NPs (Sample 1 and 2).fig" "Growth plot data for different concentrations of AgNO3.xlsx" "govdoc20160907-176765.pdf" "gc_1169-THEUA-PHYS-3113-SEC001-3638_svdownload_2016-09-04-20-16-34.xls" "Fitted plots.pptx" "Fitted parameters_2nd run_Ag NP.xlsx" "EdU.pdf" "e4.pdf" "dept-scholarship-list.xlsx" "DEEP_Win10x64_zjb201609/" "DATALOG.TXT" "Curriculum Vitae_D Bae.pdf" "Chairs Meeting Minutes 8.26.16 - final.docx" "ATT00001.txt" "Appl. Environ. Microbiol.-2007-Pal-1712-20.pdf" "Appl. Environ. Microbiol.-1999-Lytle-3222-5.pdf" "Alan Walker  Fade NCS Release [YouTube 1 Hour].mp3" "AktaStart_DataFile.pdf" "494034062669_ftp.pdf" "2017-rfp-instructions-and-format.doc" "2017-requests-for-proposal.doc" "2017 NextGen Grants LOI PG.2.pdf" "2016-微流体技术Clusters of circulating tumor cells traverse capillary-sized vessels.pdf" "111817_0_art_file_3008424_8cm0t1.pdf" "1-s2.0-S0006349597788209-main.pdf" "09.12.16-09.18.16.pptx" "09.05.16-09.11.16.pptx" "002UGtMIgy6ZLFM6mVp2f.jpeg" ".localized" ".DS_Store" "../" "./")
-
- ("/Users/yongwang/Desktop/" (22612 42205 0 0) "泡沫6.gif" "泡沫5.gif" "泡沫4.gif" "泡沫3.gif" "泡沫2.gif" "泡沫1.gif" "test.java" "test.class" "Scan_161103_BoldDentalReceipts.pdf" "project_summary.docx" "photo-201609-uk-cambridge/" "Mimi/" "faded_1hour.mp4" "faded.mp4" "elements.docx" ".ropeproject/" ".localized" ".ipynb_checkpoints/" ".DS_Store" "../" "./")
 
  ("/Users/yongwang/.emacs.d/.python-environments/" (22610 12870 0 0) "default/" "../" "./")
 

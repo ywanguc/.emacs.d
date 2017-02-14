@@ -13,6 +13,11 @@
 ;; packages are installed through M-x list-packages or M-x package-install
 
 
+;; evil-mode
+(require 'evil)
+(evil-mode t)
+
+
 ;; required to sync path with shell (needed for python)
 (exec-path-from-shell-initialize)
 
@@ -126,7 +131,7 @@
  '(jdee-compiler (quote ("javac")))
  '(package-selected-packages
    (quote
-    (flycheck jdee company-jedi writeroom-mode zenburn-theme iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
+    (evil evil-visual-mark-mode flycheck jdee company-jedi writeroom-mode zenburn-theme iy-go-to-char ace-jump-mode yasnippet pyvenv pythonic org material-theme langtool highlight-indentation find-file-in-project exec-path-from-shell company auctex-latexmk))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

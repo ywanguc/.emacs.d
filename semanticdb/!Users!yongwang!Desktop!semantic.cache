@@ -6,24 +6,24 @@
     (semanticdb-table "semanticdb-table"
       :major-mode jdee-mode
       :tags 
-        '( ("test" type
+        '( ("yw" package nil nil [1 12])
+            ("TestFunction" type
                (:typemodifiers ("public")
                 :members 
-                  ( ("main" function
-                       (:typemodifiers ("public" "static")
-                        :arguments 
-                          ( ("args" variable
-                               (:dereference 1
-                                :type "String")
-                                (reparse-symbol formal_parameters) [49 62]))                          
+                  ( ("TestFunction" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [42 66])
+                    ("HelloWorld" function
+                       (:typemodifiers ("public")
                         :type "void")
-                        (reparse-symbol class_member_declaration) [25 111]))                  
+                        (reparse-symbol class_member_declaration) [67 133]))                  
                 :type "class")
-                nil [1 113]))          
-      :file "test.java"
-      :pointmax 114
-      :fsize 113
-      :lastmodtime '(22612 42127 0 0)
+                nil [13 135]))          
+      :file "TestFunction.java"
+      :pointmax 136
+      :fsize 135
+      :lastmodtime '(22619 21328 0 0)
       :unmatched-syntax nil))
   :file "!Users!yongwang!Desktop!semantic.cache"
   :semantic-tag-version "2.0"
